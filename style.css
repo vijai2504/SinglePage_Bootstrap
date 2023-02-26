@@ -1,0 +1,425 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+ul li {
+    padding: 0 20px;
+    text-shadow: 0 0 .5px #6d6c6c, 0 0 .5px #050505;
+}
+
+.navbar-toggler {
+    background: rgb(136, 134, 134) !important;
+}
+
+.active a {
+    color: #5FB759 !important;
+}
+
+.nav-link {
+    color: rgb(136, 134, 134) !important;
+}
+
+.nav-link:hover {
+    color: #5FB759 !important;
+}
+
+.navbar {
+    margin-top: 20px !important;
+}
+
+.slide {
+    position: relative;
+    top: 0;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    font-weight: bolder;
+    text-shadow: 0 0 2px #6d6c6c, 0 0 2px #050505;
+}
+
+.header {
+    background-color: transparent;
+}
+
+.carousel-caption {
+    top: 45%;
+    transform: translateY(-20%);
+  }
+
+.carousel-indicators {
+    display: none;
+  }
+
+.carousel-item img {
+    width: 100%;
+    height: 95vh;
+    background-repeat: no-repeat !important;
+    
+    background-size: cover !important;
+}
+
+.carousel-caption h5 {
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-bottom: 20px !important;
+}
+
+.carousel-caption p {
+    font-size: 45px;
+}
+
+.carousel-caption input {
+    margin: 20px;
+}
+
+.carousel-caption input, .about_i input {
+    padding: 11px 25px;
+    border-radius: 25px;
+    font-size: 13px;
+    border: 3px solid white;
+    font-weight: 600;
+}
+
+.first_i, .about_b {
+    color: white;
+    background: none;
+}
+
+.second_i {
+    color: #5FB759;
+}
+
+.first_i:hover {
+    color: #5FB759;
+    background: white;
+}
+
+.second_i:hover {
+    color: white;
+    background: #5FB759;
+    border: 3px solid #5FB759;
+}
+
+.arrow_icon {
+    background-color: #5FB759;
+    margin-left: 48%;
+    padding: 22.5px;
+    border-radius: 100px;
+    color: white;
+    position: absolute;
+    top: 91%;
+}
+
+.about {
+    margin-top: 150px;
+    padding-bottom: 80px;
+    border-bottom: 5px solid#f0eded;
+}
+
+.about_h6 h6, .left_side h6 {
+    color: #5FB759;
+    padding-bottom: 10px;
+}
+
+.left_side p {
+    font-size: .8rem;
+    padding-bottom: 17px;
+}
+
+.left_s {
+    padding-top: 70px;
+    color: #5FB759;
+}
+
+.about_icon {
+    padding: 14px;
+    margin: 20px 20px 15px 0;
+    border-radius: 100px;
+    background: linear-gradient( #39A09D, #5FB759);
+    font-size: 22px !important;
+    color: white;
+}
+
+.fa_m {
+    margin-top: 35px;
+}
+
+.about_i input {
+    margin-top: 55px;
+}
+
+.about_b {
+    color: white;
+    background: #5FB759;
+}
+
+.about_b:hover {
+    background: #3c9636;
+}
+
+.about_p p{
+    color: #8D8D8D;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.about_h3 {
+    font-size: 16px !important;
+    font-weight: 600;
+}
+
+.three_col {
+    margin-top: 80px;
+    margin-bottom: 90px;
+}
+
+.t_sec {
+    display: flex !important;
+    justify-content: space-evenly;
+}
+
+.t_icon {
+    background: linear-gradient(#39A09D, #5FB759);
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-size: 50px !important;
+    margin-right: 30px;
+}
+
+.t_text h3 {
+    font-size: 15px !important;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.t_text p{
+    color: #8D8D8D;
+    font-size: 14.5px;
+    padding-top: 10px;
+    padding-bottom: 4px;
+}
+
+.t_input {
+    font-size: 15px;
+    background: none;
+    font-weight: 600;
+    border: none;
+    margin-bottom: 15px;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.t_input:hover {
+    color: #5FB759;
+    border: 2px solid #5FB759;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.project {
+    margin-bottom: 150px;
+}
+
+.sub_sec {
+    background-image: url("assets/images/scroll-2.jpg");
+    width: 100%;
+    height: 50vh;
+    background-position: center;
+    text-align: center;
+    padding: 6%;
+    color: white;
+    margin-bottom: 90px;
+}
+
+.sub_sec h2 {
+    padding: 10px 0;
+    font-size: 40px !important;
+}
+
+.left_side h2 {
+    font-weight: 600;
+}
+
+.sub_i {
+    width: 40%;
+    height: 6vh;
+    border-radius: 25px;
+    border: 1px solid white;
+    text-indent: 20px;
+    background: none;
+}
+
+::placeholder {
+    color: rgb(202, 199, 199);
+}
+
+.sub_i:focus {
+    outline: none;
+}
+
+.sub_b {
+    width: 180px;
+    border-radius: 25px;
+    border: 1px solid white;
+    font-size: 15px;
+    padding: 8px;
+    margin-left: 20px;
+}
+
+.sub_b:hover {
+    color: white;
+    background-color: #5FB759;
+    border: 1px solid #5FB759;
+}
+
+.card_img img {
+    height: 41vh !important;
+}
+
+.team {
+    background-image: url("assets/images/team-bg.png");
+    height: 130vh;
+    width: 100%;
+}
+
+.contact {
+    background-image: url("assets/images/contact-bg.jpg");
+    
+}
+
+.team, .contact {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.teamp {
+    margin-top: 50px;
+}
+
+.team_cap {
+    margin-bottom: -850px;
+    color: white;
+}
+
+.team_cap h5 {
+    margin-bottom: -55px;
+    font-size: 14px;
+}
+
+.team_cap p{
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: -20px;
+}
+
+.team_c {
+    width: 100%;
+    height: 60vh;
+    margin-top: 290px;
+}
+
+.team_c img {
+    object-fit: cover;
+    height: 60vh;
+}
+
+.card-body{
+    color: white;
+    text-align: center;
+}
+
+.card_img {
+    padding: 0 !important;
+    margin-bottom: 40px !important;
+    height: 280px;
+}
+
+.right_side {
+    padding-top: 45px !important;
+}
+
+.con_i {
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 3px;
+    text-indent: 25px;
+    border: 1px solid rgb(202, 199, 199);
+}
+
+.con_i:focus, textarea:focus {
+    outline: none;
+    
+}
+
+.con_ii {
+    margin-top: 40px;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    margin-top: 40px;
+    border: 1px solid rgb(202, 199, 199);
+    padding: 10px 0 0 25px;
+}
+
+.con_h3 {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.fa_n {
+    margin-left: -15px !important;
+    margin-top: 35px;
+}
+
+footer {
+    background: linear-gradient(#39A09D, #5FB759);
+    width: 100%;
+    height: 25vh;
+    margin-top: 100px;
+}
+
+.f_right {
+    margin-top: 15%;
+    font-weight: 300;
+    color: white;
+}
+
+.f_l {
+    margin-left: 45%;
+}
+
+.f_left, .f_left p {
+    display: inline-block;
+    margin-top: 10%;
+    color: white;
+    padding: 0 0 0 6px;
+}
+
+.f_icon {
+    padding: 11px;
+    border-radius: 100px;
+    background: white;
+    font-size: 14px !important;
+    color: #3c9636;
+}
+
+@media (max-width: 576px) {
+    .hide_c {
+        display: none;
+    }
+    .f_left {
+        margin-top: 5px;
+    }
+    .f_l {
+        margin-left: 15%;
+    }
+}
